@@ -1,0 +1,23 @@
+- *.swp
+- .*#
+- *#
+- *~
+
+- .ts.*
+
+- build-output
+
+- buildroot
+- buildroot-dl
+- buildroot-dl-*
+- buildroot-output
+- buildroot-output-*
+- buildroot.*-from-*.patch
+- buildroot-*.tar
+- buildroot-*.tar.*
+
+- scratch
+- scratch-*
+- scratch.*
+
+- typescript

@@ -1,0 +1,30 @@
+test plan: expected test number range (before all tests)
+
+test plan: actual test number range (after all tests)
+
+test plan: directive (same as test directive)
+
+test point == test
+
+test result ok: yes/no
+
+test ID/number
+
+test directive: to do ==> run it: yes; expect failure, report unexpected success
+
+test directive: skip ==> run it: no; count as success
+
+test result diagnostic info: narrative text
+
+test result diagnostic info: structured detail (YAML)
+
+test directive ID/number == TODO, SKIP
+
+test directive explanation/reason (brief; single line; follows ID/number)
+
+aborting a test plan (bailing out): magic phrase
+
+aborting a test plan (bailing out): reason why (brief; single line; follows magic phrase)
+
+other input (ignored)
+

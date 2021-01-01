@@ -1,0 +1,97 @@
+values_are_equal --min-count X --max-count Y --value-validator value_is_FOO value ...
+
+values_are_same --min-count X --max-count Y --value-validator value_is_FOO value ...
+
+values_are_null --min-count X --max-count Y --value-validator value_is_FOO value ...
+
+vars_are_defined_in_env --min-count X --max-count Y --value-validator value_is_FOO name ...
+
+vars_are_defined_in_shell --min-count X --max-count Y --value-validator value_is_FOO name ...
+
+vars_are_defined_in_shell_only --min-count X --max-count Y --value-validator value_is_FOO name ...
+
+values_are_contained_in_named_list --min-count X --max-count Y --value-validator value_is_FOO --list-validator list_is_BAR list_name value ...
+
+value_is_integer
+
+value_is_negative_integer
+
+value_is_positive_integer
+
+value_is_nonnegative_integer
+
+value_is_nonpositive_integer
+
+value_is_integer_base_02
+
+value_is_integer_base_08
+
+value_is_integer_base_10
+
+value_is_integer_base_16
+
+
+[done] set_up_once
+[done] tear_down_once
+
+[done] set_up
+[done] tear_down
+
+[done] abort_all_remaining_tests_in_scope == TAP bail out
+
+[done] skip_all_remaining_tests_in_scope == TAP skip directive on plan
+
+
+check_that
+check_FOO for each names_are_FOO
+check_FOO for each values_are_FOO
+
+
+to_ensure "database connection is valid"
+
+assert_not_null --to-ensure "database connection is valid" "${database_connection}"
+
+
+assert_that
+assert_FOO for each names_are_FOO
+assert_FOO for each values_are_FOO
+
+assert FOO == assert_that names_are_FOO || assert_that values_are_FOO
+
+assert_not_FOO == assert_FOO --not
+
+
+[done] assert_values '[[ "${v1}" -eq "${v2}" ]]' e1 a1 e2 a2 e3 a3
+
+
+[done] assert_value is_string
+
+[done] assert_value_pair is_eq 
+
+
+[done] assert_each_name is_defined_in_env
+
+[done] assert_each_value is_string
+
+[done] assert_each_value_pair is_eq 
+
+
+assert_name is_defined_in_env
+
+assert_name_value_pair is_valid_dictionary_key_and_value
+
+assert_each_name_value_pair is_valid_dictionary_key_and_value
+
+
+[done] assert [[ "${v1}" -eq "${v2}" ]]
+
+[done] assert [ -e "${f1}" ]
+
+[done] assert test -e "${f1}"
+
+
+[nope] assert_that [[ "${v1}" -eq "${v2}" ]]
+
+[nope] assert_test -e "${f1}"
+
+

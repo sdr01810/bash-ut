@@ -1,0 +1,10 @@
+>>> test_file name: /Work.local/c.sdr/Sandboxes/devops-/bash-ut/share/samples/tests/always_failing.tests.sh event: beginning
+>>> 
+>>> test name: test_always_failing__1 event: beginning
+>>> test name: test_always_failing__1 event: completed rc: 1
+>>> 
+>>> test name: test_always_failing__2 event: beginning
+>>> test name: test_always_failing__2 event: completed rc: 1
+>>> 
+>>> test_file name: /Work.local/c.sdr/Sandboxes/devops-/bash-ut/share/samples/tests/always_failing.tests.sh event: completed rc: 0
+>>> 
