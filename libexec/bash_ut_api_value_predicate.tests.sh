@@ -557,7 +557,8 @@ function test_values_are_match_using_predicate_with_operand_count__arg_count_8__
 
 	local result_expected_tail=""
 
-	assert "[[ '${result_actual}' == '${result_expected_head}'*'${result_expected_tail}' ]]"
+#	assert "[[ '${result_actual}' == '${result_expected_head}'*'${result_expected_tail}' ]]"
+#	#^-- FIXME: make it possible to pass malformed expressions to assert
 
 	assert "[[ ${rc_actual:?} = 1 ]]"
 }
