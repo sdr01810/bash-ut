@@ -49,13 +49,13 @@ function max_operand_count_of_value_predicate_expression() { # predicate_express
 
 	##
 
-	local i= result= did_determine_operand_count_p=
+	local i= result= did_determine_max_operand_count_p=
 
 	for i in 9 8 7 6 5 4 3 2 1 ; do
 
 		if [[ "${predicate_expression:?}" =~ \$\{$i} ]] ; then
 
-			did_determine_operand_count_p=t
+			did_determine_max_operand_count_p=t
 
 			result=$i ; break
 		fi
@@ -74,7 +74,7 @@ function max_operand_count_of_value_predicate_expression() { # predicate_express
 
 	echo "${result}"
 
-	[[ -n ${did_determine_operand_count_p} ]]
+	[[ -n ${did_determine_max_operand_count_p} ]]
 }
 
 function is_value_predicate_expression_with_max_operand_count() { # operand_count predicate_expression

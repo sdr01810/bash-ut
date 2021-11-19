@@ -20,7 +20,7 @@ function run_tests_in_each_file() { # [ test_script_fpn ... ]
 
 	local this_test_script_set=( "$@" ) ; shift $#
 
-	local this_test_script_fpn
+	local this_test_script_fpn=
 
 	for this_test_script_fpn in "${this_test_script_set[@]}" ; do
 
