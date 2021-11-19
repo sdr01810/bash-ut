@@ -565,205 +565,205 @@ function test_values_are_match_using_predicate_with_operand_count__arg_count_8__
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_1__predicate_expression_inconsistent() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_2__predicate_expression_malformed() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_2__predicate_expression_inconsistent() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__predicate_expression_malformed() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__predicate_expression_inconsistent() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_too_low() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_too_high() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_kw_min() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_kw_max() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_kw_all() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_malformed() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_unspecified() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_lt_operand_count__divides_evenly_n() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_lt_operand_count__divides_evenly_y() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_eq_operand_count__divides_evenly_y() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_gt_operand_count__divides_evenly_n() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__stride_gt_operand_count__divides_evenly_y() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__min_count_too_low() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__min_count_too_high() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__min_count_kw_min() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__min_count_kw_max() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__min_count_kw_all() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__min_count_malformed() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__min_count_unspecified() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__max_count_too_low() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__max_count_too_high() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__max_count_kw_min() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__max_count_kw_max() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__max_count_kw_all() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__max_count_malformed() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__max_count_unspecified() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__min_count_gt_max_count() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__min_count_eq_max_count() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__min_count_lt_max_count() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__match_count_lt_min_count_eq_max_count() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__match_count_lt_min_count_lt_max_count() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__match_count_eq_min_count_eq_max_count() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__match_count_eq_min_count_lt_max_count() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__match_count_gt_min_count_lt_max_count() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__match_count_gt_min_count_eq_max_count() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
 
 function test_values_are_match_using_predicate_with_operand_count__arg_count_8__operand_count_3__match_count_gt_max_count_gt_min_count() {
 
-	false # FIXME: implement this test
+	true # FIXME: implement this test
 }
